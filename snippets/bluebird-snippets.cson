@@ -1,0 +1,23 @@
+# Bluebird Snippets
+# Because typing these damn things out is annoying
+
+'.source.js':
+
+  # Complete snippets
+  'Promise Try':
+    'prefix': 'tryprom'
+    'body': """
+      Promise.try(function($1) {
+        $3
+      }).catch(function($2) {
+
+      });
+    """
+
+  # Promise fragments
+  'Promise Resolve':
+      'prefix': 'resolve'
+      'body': 'Promise.resolve($1)'
+  'Promise Reject':
+      'prefix': 'reject'
+      'body': 'Promise.reject($1)'

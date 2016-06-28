@@ -1,0 +1,13 @@
+'.source.js':
+  'Tap Test':
+    'prefix': 'test'
+    'body': 't.test(\'changeMe\', function(t) {\n\n});'
+  'Tap Top-Level':
+    'prefix': 'tap'
+    'body': """
+    var tap = require('tap');
+
+    tap.test('$1', function(t) {
+      $2
+    });
+    """

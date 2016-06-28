@@ -1,0 +1,18 @@
+{
+  "name": "kevs-custom-snippets",
+  "version": "0.0.1",
+  "description": "Kevin's Custom Snippets",
+  "keywords": [
+    "bluebird",
+    "snippets",
+    "atom",
+    "lodash",
+    "node-tap",
+    "tap"
+  ],
+  "repository": "https://github.com/kjdelisle/kevs-custom-snippets.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

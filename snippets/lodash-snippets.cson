@@ -1,0 +1,40 @@
+# Lodash
+# Now with more dashing!
+
+'.source.js':
+  'Lodash':
+    'prefix': 'lodash'
+    'body': 'var _ = require(\'lodash\');'
+  'Lodash Each':
+    'prefix': 'each'
+    'body': """
+    _.each($1, function($2) {
+      $3
+    });
+    """
+  'Lodash Map':
+    'prefix': 'map'
+    'body': """
+    _.map($1, function($2) {
+      $3
+    });
+    """
+  'Lodash Find':
+    'prefix': 'find'
+    'body': """
+    _.each($1, function($2) {
+      $3
+    });
+    """
+  'Lodash Attempt':
+    'prefix': 'find'
+    'body': '_.attempt($1func, $2[args]);'
+  'Lodash Includes':
+    'prefix': 'includes'
+    'body': '_.includes($1list, \'$2\');'
+  'Lodash Merge':
+    'prefix': 'merge'
+    'body': '_.merge($1, $2);'
+  'Lodash Deep Clone':
+    'prefix': 'cloneDeep'
+    'body': '_.cloneDeep($1);'
