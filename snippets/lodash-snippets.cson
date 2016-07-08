@@ -27,7 +27,7 @@
     });
     """
   'Lodash Attempt':
-    'prefix': 'find'
+    'prefix': 'attempt'
     'body': '_.attempt($1func, $2[args]);'
   'Lodash Includes':
     'prefix': 'includes'
