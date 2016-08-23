@@ -1,0 +1,4 @@
+'.source.js':
+  'ES5 Require':
+    'prefix': 'req'
+    'body': 'var $1 = require(\'$1\');'
